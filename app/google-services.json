@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "615728199703",
+    "firebase_url": "https://coupon-wallet-55af4.firebaseio.com",
+    "project_id": "coupon-wallet-55af4",
+    "storage_bucket": "coupon-wallet-55af4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615728199703:android:349df4d0d599f53c07c452",
+        "android_client_info": {
+          "package_name": "com.example.mycouponwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615728199703-i44eajt8pduid0akhido0l9jb2rotn3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycouponwallet",
+            "certificate_hash": "0e2f6b68ae8f30b40fce31f511a01d09747c3221"
+          }
+        },
+        {
+          "client_id": "615728199703-s8v1d6v9oanvecadjh65oi66qada9gtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1UP4xFXilT2E-i_Sh_4u6sCN8MNLpKys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615728199703-s8v1d6v9oanvecadjh65oi66qada9gtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash"
+    tools:context=".AccountActivity">
+
+    <TextView
+        android:id="@+id/account_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Coupon Wallet\n 계정 만들기"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="8dp"
+        />
+    
+    <LinearLayout
+        android:id="@+id/inputs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/account_text"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true">
+
+
+        <EditText
+            android:id="@+id/sign_up_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edit_text_style"
+            android:padding="15dp"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="이름"
+            />
+
+        <EditText
+            android:id="@+id/sign_up_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edit_text_style"
+            android:padding="15dp"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="이메일"
+            />
+
+        <EditText
+            android:id="@+id/sign_up_pw"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edit_text_style"
+            android:padding="15dp"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:hint="비밀번호"
+            />
+
+        <EditText
+           android:id="@+id/pw_rewrite"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/round_edit_text_style"
+           android:padding="15dp"
+           android:layout_marginTop="2dp"
+           android:maxLines="1"
+           android:inputType="textPassword"
+           android:hint="비밀번호 재입력"
+           />
+
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:id="@+id/setImage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/service_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputs"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입시 "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이용약관"
+            android:textColor="#0099FF"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="에 동의하신 것으로 간주합니다."/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/sign_button"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textSize="20dp"
+        android:background="@drawable/login_button_style"
+        android:layout_below="@id/service_message"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+</RelativeLayout>
